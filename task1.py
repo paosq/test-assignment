@@ -8,4 +8,7 @@ def rectangle_area(a, b):
     :raises ValueError: if either number was negative
     """
     
-    pass
+    if a>0 and b>0:
+      return a*b
+    else: return "bład"
+print(rectangle_area(-1,2))
