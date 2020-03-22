@@ -7,7 +7,6 @@ def rectangle_area(a, b):
     :return: area of the rectangle
     :raises ValueError: if either number was negative
     """ 
-    if a>0 and b>0:
-      return a*b
-    else: return "bład"
-print(rectangle_area(-1,2))
+    if a<0 and b<0:
+        return "error"
+    return a*b
